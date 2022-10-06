@@ -1,12 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body {background-color: rgba(173, 103, 23, 0.808); margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  background: linear-gradient(
+    0deg,
+    rgba(59, 148, 94, 1) 0%,
+    rgba(101, 204, 184, 1) 100%
+  );
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif; color: #FFFF;
+}
 
-.text-center{
+.text-center {
   text-align: center;
 }
 
-.full-width{
+.full-width {
   width: 100%;
+}
+
+.containerP {
+  background-color: rgba(104, 35, 214, 0.623);
+  border-radius: 30px;
 }
